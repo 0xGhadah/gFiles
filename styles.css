@@ -1393,7 +1393,7 @@ font-size:small;
         display: block;
         margin: auto;
         width: 50%;
-        margin-left: 40%;
+        padding-left: 40%;
     }
 
     #introTitle {
