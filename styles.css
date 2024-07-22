@@ -231,7 +231,7 @@ nav {
     animation-iteration-count: infinite;
     position: relative;
     bottom: 80px;
-    left: 30%;
+    left: 15%;
 
 }
 
@@ -241,7 +241,7 @@ nav {
     animation-iteration-count: infinite;
     position: relative;
     bottom: 20px;
-    left: 35px;
+    left: 30px;
 
 }
 
@@ -319,7 +319,7 @@ nav {
 }
 
 #about-right img {
-    width: 400px;
+    width: 60%;
     margin-top: 25%;
     margin-left: 10%;
     transform: scaleX(1) !important;
