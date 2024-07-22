@@ -319,7 +319,7 @@ nav {
 }
 
 #about-right img {
-    width: 80%;
+    width: 80% !important;
     margin-top: 25%;
     margin-left: 10%;
     transform: scaleX(1) !important;
@@ -1434,7 +1434,7 @@ font-size:small;
     }
 
     #about-right img {
-        width: 40%;
+        width: 40% !important;
         margin: 0;
     }
 
