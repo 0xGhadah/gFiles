@@ -219,7 +219,7 @@ nav {
     min-width: 50%;
     max-width: 50%;
     height: auto;
-    margin-left: 18% !important;
+    margin-left: 5% !important;
     margin-top: 20%;
     transform: scaleX(1);
 
@@ -321,6 +321,7 @@ nav {
 #about-right img {
     width: 400px;
     margin-top: 25%;
+    margin-left: 10%;
     transform: scaleX(1) !important;
 }
 
