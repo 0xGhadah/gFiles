@@ -406,7 +406,7 @@ nav a {
     top: 11%;
     position: fixed !important;
     z-index: 1;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .navbarBlock .navbarItem {
