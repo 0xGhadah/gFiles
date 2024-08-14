@@ -151,6 +151,16 @@ footer {
     margin-top: 0px;
 }
 
+#taglineAr {
+    color: #72757e;
+    margin-top: 0px;
+    margin-left: 4%;
+}
+
+#nameAr {
+    margin-right: 1%;
+}
+
 #mobTitle {
     color: #94a1b2;
     font-size: xx-large;
@@ -182,6 +192,11 @@ footer {
 #socials {
     margin-left: 18%;
     width: 60%;
+}
+
+#socialsAr {
+    margin-left: 26%;
+    width: 52%;
 }
 
 #contactLink {
@@ -821,4 +836,72 @@ a:hover {
     font-size: x-small;
 }
 
+@media (max-width:600px) {
+    .expAr {
+        height: 60%;
+    }
+}
+
 /* Popup END */
+
+/* Certs START */
+#popupCert .popup {
+    height: 75%;
+}
+
+.gridCertBoxes {
+    margin-top: 15%;
+    margin-left: 6%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.gridCertBoxes .box {
+    background-color: rgb(32, 32, 38);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.gridCertBoxes .box img {
+    margin: auto;
+    display: block;
+}
+
+.gridCertBoxes .box:hover {
+    transform: scale(1.05);
+}
+
+.whisper {
+    font-size: xx-small;
+}
+
+@media (max-width:600px) {
+    .certMob {
+        margin-top: 50%;
+        height: 40% !important;
+        font-size: xx-small;
+    }
+
+    .certsMob {
+        margin-top: 24%;
+        margin-left: -2.5%;
+    }
+
+    .gridCertBoxes .box img {
+        width: 50%;
+    }
+
+    .minCert {
+        width: 64% !important;
+    }
+}
+
+.btnAr {
+    left: 30px;
+
+}
+
+/* Certs END */
