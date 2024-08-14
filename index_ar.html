@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <title>gFiles</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imgs/favicon_ar.png">
+
+</head>
+
+<body>
+    <!-- Navbar (hidden on small screens) -->
+    <nav class="navBar navbarBlock hide-on-small">
+        <a href="./index.html" class="navbarItem" lang="en" dir="ltr" style="margin-bottom: -4px;">
+            /english
+        </a>
+        <a href="#" class="navbarItem" id="homeSpace">
+            /الغلاف
+        </a>
+        <a href="#creations" class="navbarItem">
+            /المكتبة
+        </a>
+        <a href="#whoami" class="navbarItem">
+            /القصة
+        </a>
+    </nav>
+
+    <!-- Navbar (hidden on medium and large screens) 
+    <div class="hide-on-large hide-on-medium" id="myNavbar">
+        <div>
+            <a href="./index_ar.html" class="navbarItem" lang="ar" dir="rtl">
+                بالعربي؟
+            </a>
+        </div>
+    </div>-->
+
+    <div class="padding24" id="main">
+        <!-- Start Home Section -->
+        <header class="padding16 padding32 center" id="home">
+            <div class="intro-container hide-on-small">
+                <div id="intro-left">
+                    <span dir="rtl">السلام عليكم! <br> </span>
+                    <span id="nameAr" dir="rtl">معاك غاده*</span>
+                    <div>
+                        <p id="taglineAr" dir="rtl">* أخصائية أمن سيبراني ومهتمّه بالتصميم ثُلاثيّ الأبعاد. </p>
+                        <div id="socialsAr">
+                            <p>
+                                <a href="https://www.linkedin.com/in/ghadah-a-alassaf" target="_blank" id="contactLink">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="mailto:ghadah.website@gmail.com" id="contactEm">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="intro-right">
+                    <img src="/imgs/landingAr.gif" class="image" width="50%" height="auto">
+                </div>
+            </div>
+            <div class="hide-on-large hide-on-medium  padding32 center">
+                <img class="hide-on-large hide-on-medium" src="/imgs/landingAr.gif" width="100%" height="auto">
+                <p id="mobTitle" dir="rtl">
+                    السلام عليكم! <br>معاك غاده*
+                </p>
+                <span id="mobSubtitle" dir="rtl">
+                    * أخصائية أمن سيبراني ومهتمّه بالتصميم ثُلاثيّ الأبعاد.
+                    <br>
+                    <div id="socials">
+                        <p>
+                            <a href="https://www.linkedin.com/in/ghadah-a-alassaf" target="_blank" id="contactLink" dir="ltr">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="mailto:ghadah.website@gmail.com" id="contactEm">
+                                <i class="bi bi-envelope-fill"></i>
+                            </a>
+                        </p>
+                    </div>
+                </span>
+            </div>
+        </header>
+        <!-- End Home Section -->
+
+        <!-- Start Creations Section -->
+        <div class="content padding64" id="creations">
+            <h2 class="title">../المكتبة</h2>
+            <div id="creationsList">
+                <div class="article-cards">
+                    <div class="article-card" dir="rtl">
+                        <div class="card-icon">
+                            <img src="imgs/post_ths.gif" width="65px">
+                        </div>
+                        <h2 class="card-title"><b> اكتشاف التهديدات السيبرانية</b><br><br>
+                            <span class="article-summary">
+                                مجموعة من المصادر والأدوات المفيدة لإختبار شهادة eCTHPv2
+                            </span>
+                        </h2>
+
+                        <p class="card-read">
+                            <a class="card-link" href="posts/Threat_Hunting_Stuff_ar.html">إطلاع <i
+                                    class="bi bi-arrow-left-short"></i></a>
+                        </p>
+                    </div>
+                    <div class="locked article-card">
+                        <svg class="lock-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z" />
+                        </svg>
+                    </div>
+                    <div class="locked article-card">
+                        <svg class="lock-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Creations Section -->
+
+        <!-- whoami Section -->
+        <div class="content padding64" id="whoami">
+            <h2 class="title">../القصة</h2>
+            <div id="whoAmi">
+                <div id="whoamiL">
+                    <p dir="rtl">
+                        شغـوفــة بـالـتقــنيــة وذات عقــلـية تـهتم بالتفــاصيل، التحـليل وحـل الــمشاكـل جــزء لا
+                        يتــجزأ من شخصــيتي.
+                        تتمــحور اهتمامـاتي حـول الأمـن السيبــرانـي، والـبرجمـة، والـنمذجة ثـلاثيـة الأبعــاد.
+                        <br><br>
+                        خــلال
+                        <a class="button" href="#popup" class="overlay">رحلـتي الـمهنية</a>،
+                        اكـتسبت مـجموعـة مـن الـمهـارات الـمتنوعـة و
+                        <a class="button" href="#popupCert" class="overlay">
+                            الشهـادات الـمهنيـة
+                        </a> والـتي سـمحت لـي بـإنتـاج مُخـرَجـات ذات قيمـة
+                        مُمـيزة.
+                        أبــحث بإسـتمرار عـن
+                        الـفُرص والمشـاريـع الـتي تُمكنُنِـي من الابتـكار وإضافـة لـمسات إبـداعيـة لإنتـاج الحلـول
+                        الـمناسبة
+                        ✨
+                        <br><br>
+                        مـن حـزب الـشّاي، والكتب، والليقو.
+                        <br> <br>
+                        <span id="delightful">
+                            فرصة سعيدة!
+                        </span>
+                        <br>
+                    </p>
+                </div>
+                <div id="whoamiR">
+                    <img src="/imgs/whoamiAr.gif" width="100%">
+                </div>
+            </div>
+        </div>
+        <!-- End whoami Section -->
+
+        <!-- Start Certs Section -->
+
+        <div id="popupCert" class="overlay">
+            <div class="popup certMob">
+                <a class="close btnAr" lang="en" href="#whoami">&times;</a>
+                <h1 style="position: absolute;margin-top: 5%;right: 9%;color: #94a1b2;" dir="rtl">الشهادات
+                </h1>
+                <div id="gridCert" class="certsMob">
+                    <div class="gridCertBoxes">
+                        <div class="box">
+                            <a href="https://www.credly.com/badges/40585b4c-9917-4a43-883c-e23d7d866951/public_url"
+                                target="_blank">
+                                <img src="imgs/certs/CISA.png" width="40%" style="margin-top: 6%;">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.linkedin.com/posts/activity-7030481169758457856-udJW" target="_blank">
+                                <img src="imgs/certs/COBIT5.png" width="40%" style="margin-top: 6%;">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.credly.com/badges/7faee12e-fb9e-460f-bdd7-2489211756a9/public_url"
+                                target="_blank">
+                                <img src="imgs/certs/GSEC.png" width="40%" style="margin-top: 6%;">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.credly.com/badges/99e9656a-cbdb-43cf-9d77-1466b394f3a8/public_url"
+                                target="_blank">
+                                <img src="imgs/certs/GCFE.png" width="40%" style="margin-top: 5%;">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://verified.elearnsecurity.com/certificates/899f3f05-caee-478f-8142-288e50f37090"
+                                target="_blank">
+                                <img src="imgs/certs/eCTHPv2.png" width="50%" style="margin-top: 6%;" class="minCert">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.credly.com/badges/ac42bba5-63d8-4895-a588-02c37dac0d0c/public_url"
+                                target="_blank">
+                                <img src="imgs/certs/BMA.png" width="45%" style="margin-top: 3%;">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.credly.com/badges/0109c3ed-bd82-460a-914b-79cc3750adb5/public_url"
+                                target="_blank">
+                                <img src="imgs/certs/MC.png" width="45%" style="margin-top: 3%;">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.credly.com/badges/1c935784-9832-4a68-943c-4f1175ed8d95/public_url"
+                                target="_blank">
+                                <img src="imgs/certs/googleit.png" width="45%" style="margin-top: 6%;">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.credly.com/badges/ffdcc46f-3f1c-44bc-9911-af5e0c89ab9e/public_url"
+                                target="_blank">
+                                <img src="imgs/certs/securityPlus.png" width="45%" style="margin-top: 4%;" >
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.credly.com/badges/f9ebf4d2-3363-4dcd-989e-49be0d06a540/public_url"
+                                target="_blank">
+                                <img src="imgs/certs/Aplus.png" width="46%" style="margin-top: 3%;">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="https://www.linkedin.com/posts/activity-6871845413062750208-aMhi?utm_source=share&utm_medium=member_ios"
+                                target="_blank">
+                                <img src="imgs/certs/CEH.png" width="55%" style="margin-top: 9%;" class="minCert">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <img src="imgs/certs/Toastmasters.png" width="46%" style="margin-top: 5%;" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Certs Section -->
+
+        <!-- Start Exp Section -->
+
+        <div id="popup" class="overlay">
+            <div class="popup expAr">
+                <br><br>
+                <a class="close" href="#whoami" lang="en">&times;</a>
+                <div class="content">
+                    <div class="tabs">
+                        <input type="radio" id="tab1" name="tab-control" checked>
+                        <input type="radio" id="tab2" name="tab-control">
+                        <input type="radio" id="tab3" name="tab-control">
+                        <input type="radio" id="tab4" name="tab-control">
+                        <ul>
+                            <li title="SDAIA">
+                                <label for="tab1" role="button">
+                                    <i class="bi bi-robot"></i>
+
+                                    <br>
+                                    <span>سدايا</span>
+                                </label>
+                            </li>
+                            <li title="SAMA">
+                                <label for="tab2" role="button">
+                                    <i class="bi bi-bank"></i>
+
+                                    <br>
+                                    <span>ساما</span>
+                                </label>
+                            </li>
+                            <li title="KACST">
+                                <label for="tab3" role="button">
+                                    <i class="bi bi-motherboard"></i>
+                                    <br>
+                                    <span>كاكست</span>
+                                </label>
+                            </li>
+                            <li title="MiT">
+                                <label for="tab4" role="button">
+                                    <i class="bi bi-body-text"></i>
+                                    <br>
+                                    <span lang="en">MIT</span>
+                                </label>
+                            </li>
+                        </ul>
+
+                        <div class="slider">
+                            <div class="indicator"></div>
+                        </div>
+
+                        <div class="content">
+                            <section>
+                                <h2>سدايا</h2>
+                                <h4 style="margin-bottom: -15px;text-align: center;margin-top: 10%;">الهيئة السعودية
+                                    للبيانات والذكاء الاصطناعي </h4>
+                                <p style="text-align: center;margin-top: 2.5%;">
+                                     &ensp;
+                                    <span class="hide-on-small hide-on-medium">
+                                        أخصائي أمن سيبراني
+                                        <br>
+                                        يناير ٢٠٢٠ - الآن
+
+                                    </span>
+                                    <span class="hide-on-large">
+                                        <br>
+                                        أخصائي أمن سيبراني<br>
+                                        يناير ٢٠٢٠ - الآن
+
+                                    </span>
+                                </p>
+                                <div class="exp_container">
+                                    <div class="exp_details" id="mobExp">
+
+                                    </div>
+                                    <div class="exp_img">
+                                        <img src="/imgs/robot.gif" style="width: 50%;">
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section>
+                                <h2>ساما</h2>
+                                <h4 style="margin-bottom: -15px;text-align: center;margin-top: 10%;">البنك المركزي
+                                    السعودي</h4>
+                                <p style="text-align: center;margin-top: 2.5%;">
+                            &ensp;
+                                    <span class="hide-on-small">
+                                        مشرف مخاطر سيبرانية 
+                                        <br>
+                                        فبراير ٢٠٢٠ - يناير ٢٠٢٢
+                                    </span>
+                                    <span class="hide-on-large hide-on-medium">
+                                        <br>
+                                        مشرف مخاطر سيبرانية 
+                                        <br>
+                                        فبراير ٢٠٢٠ - يناير ٢٠٢٢
+                                    </span>
+                                </p>
+                                <div class="exp_container">
+                                    <div class="exp_details" id="mobExp">
+
+                                    </div>
+                                    <div class="exp_img">
+                                        <img src="/imgs/coin.gif" style="width: 50%;">
+                                    </div>
+
+                                </div>
+                            </section>
+                            <section>
+                                <h2>كاكست</h2>
+                                <h4 style="margin-bottom: -10px;text-align: center;margin-top: 10%;">مدينة الملك
+                                    عبدالعزيز للعلوم والتقنية</h4>
+                                <p style="text-align: center;" dir="rtl">
+                                    تدريب تعاوني &ensp;
+                                    <span>
+                                        يناير ٢٠١٩ - يوليو ٢٠١٩
+                                    </span>
+                                    <br>
+                                    محلل مركز العمليات الأمنية &ensp;
+                                    <span class="hide-on-small">
+                                        يوليو ٢٠١٩ - ديسمبر ٢٠١٩
+                                    </span>
+                                    <span class="hide-on-large hide-on-medium">
+                                        <br>
+                                        يوليو ٢٠١٩ - ديسمبر ٢٠١٩
+                                    </span>
+                                </p>
+                                <div class="exp_container">
+                                    <div class="exp_details">
+
+                                    </div>
+                                    <div class="exp_img">
+                                        <img src="/imgs/books.gif" style="width: 50%;">
+                                    </div>
+
+                                </div>
+                            </section>
+                            <section lang="en">
+                                <h2>MIT</h2>
+                                <h4 style="margin-bottom: -15px;text-align: center;margin-top: 10%;">MIT CoCreate</h4>
+                                <p style="text-align: center;">
+                                    Fellow &ensp;
+                                    <span>
+                                        Apr 2020 — Apr 2022
+                                    </span>
+                                </p>
+                                <div class="exp_container">
+                                    <div class="exp_details">
+
+                                    </div>
+                                    <div class="exp_img">
+                                        <img src="/imgs/bero.gif" style="width: 50%;">
+                                    </div>
+
+                                </div>
+                            </section>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- End Exp Section -->
+
+        <!-- Start Footer Section -->
+        <footer>
+            <p dir="rtl">بُني وصُمم بكل شغف من قِبل غاده.
+                <br>جميع الحقوق محفوظة ©
+            </p>
+            <a href="mailto:ghadah.website@gmail.com" style="font-size: 1.1em;">
+                <i class="bi bi-envelope-fill"></i>
+            </a>
+            |
+            <a href="https://www.linkedin.com/in/ghadah-a-alassaf" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </footer>
+        <!-- End footer Section -->
+</body>
+
+</html>
