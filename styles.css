@@ -496,7 +496,7 @@ a:hover {
     background: #16161a;
     border-radius: 20px;
     width: 50%;
-    height: 80%;
+    height: fit-content !important;
     position: relative;
 }
 
