@@ -838,7 +838,7 @@ a:hover {
 
 @media (max-width:600px) {
     .expAr {
-        height: 60%;
+        height: fit-content !important;
     }
 }
 
@@ -881,7 +881,7 @@ a:hover {
 @media (max-width:600px) {
     .certMob {
         margin-top: 50%;
-        height: 40% !important;
+        height: fit-content !important;
         font-size: xx-small;
     }
 
